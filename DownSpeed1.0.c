@@ -25,7 +25,7 @@ int main(int argc, char* argv[]){
 		printf("Enter file size: ");
 		scanf("%f", &downloadSize);
 		getchar();
-		printf("Enter download type (b/k/m/g/t bytes): ");
+		printf("Enter download type (B/K/M/G/T Bytes): ");
 		downloadType = getchar();
 	}
 	else if (argc < 5 && argc > 1 || argc > 5){
